@@ -1,0 +1,55 @@
+/* CmdHub Blurple theme overrides (Discord-inspired) */
+
+:root {
+  --cmdhub-blurple: #5865F2;
+  --cmdhub-blurple-600: #4752D9;
+  --cmdhub-blurple-400: #6B7BFF;
+  --cmdhub-bg: #ffffff;
+  --cmdhub-text: #0F172A;
+  --cmdhub-muted: #6B7280;
+}
+
+/* Body text and content */
+.md-typeset, .md-content {
+  color: var(--cmdhub-text) !important;
+  background-color: var(--cmdhub-bg) !important;
+}
+
+/* Links */
+a {
+  color: var(--cmdhub-blurple);
+}
+a:hover {
+  color: var(--cmdhub-blurple-600);
+}
+
+/* Header */
+.md-header {
+  background: linear-gradient(90deg,var(--cmdhub-blurple),var(--cmdhub-blurple-400));
+  color: #fff;
+}
+
+/* Primary buttons */
+.md-button.md-button--primary, .md-button--primary {
+  background-color: var(--cmdhub-blurple);
+  border-color: var(--cmdhub-blurple);
+  color: #fff;
+}
+
+/* Active nav link */
+.md-nav__link--active, .md-nav__link.md-nav__link--active {
+  color: var(--cmdhub-blurple-600) !important;
+  font-weight: 600;
+}
+
+/* Code blocks */
+pre, code, .md-code {
+  background-color: rgba(15,23,42,0.03);
+  border-radius: 6px;
+}
+
+/* Chips / badges */
+.md-chip {
+  background-color: rgba(88,101,242,0.08);
+  color: var(--cmdhub-blurple);
+}

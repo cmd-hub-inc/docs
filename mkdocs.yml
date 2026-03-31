@@ -3,6 +3,8 @@ site_description: Documentation site
 site_author: Cmd Hub
 theme:
   name: material
+extra_css:
+  - assets/css/cmdhub.css
 nav:
   - Home: index.md
 markdown_extensions:
