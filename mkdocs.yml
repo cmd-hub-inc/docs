@@ -1,0 +1,14 @@
+site_name: Cmd Hub Docs
+site_description: Documentation site
+site_author: Cmd Hub
+theme:
+  name: material
+nav:
+  - Home: index.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+plugins:
+  - search
