@@ -1,0 +1,11 @@
+# Ignore build artifacts, virtual environments, and generated site
+site/
+.venv/
+venv/
+node_modules/
+build/
+dist/
+.cache/
+*.log
+*.lock
+.DS_Store
